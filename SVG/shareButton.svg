@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="25px" viewBox="0 0 94 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ShareButton</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Default" transform="translate(-273.000000, -1071.000000)">
+            <g id="StatGroup" transform="translate(164.000000, 681.000000)">
+                <g id="ShareButton" transform="translate(109.000000, 388.000000)">
+                    <rect id="Rectangle" fill="#7243C0" x="0" y="2" width="94" height="25" rx="12.5"></rect>
+                    <text id="SHARE" font-family="LuckiestGuy-Regular, Luckiest Guy" font-size="26" font-weight="normal" letter-spacing="0.167142838" fill="#FFFFFF">
+                        <tspan x="9.30235775" y="23">SHARE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

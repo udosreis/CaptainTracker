@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <title id = "title">Fortnite | Stats</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script><!--For graphs-->
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <img src="IMAGES/logo.png" id = "titleImage"/>
+            <form action="javascript:getStats()" id = "nameInputForm">
+                <input type="text" name="fname" placeholder="Epic Username..." id="fortniteNameInput"><br>
+            </form>
+        </div>
+        <div class="pageSelector" >
+            <a href="javascript:updateMode(3)" id = "newsLabel">NEWS</a>
+            <a href="javascript:updateMode(0)" id = "statsLabel">STATS</a>
+        </div>
+        <div id = "contentOfPage"></div>
+        <div id = "footer">
+            <p>&copy;  2019 Captain Tracker. Fortnite is a registered trademark of Epic Games.</p>
+        </div>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>-->
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
